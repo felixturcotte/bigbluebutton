@@ -5,8 +5,8 @@ Application {
 ApplicationControlBar {
   highlightAlphas: 0.1, 0;
   fillAlphas: 0, 0;
-  fillColors: #32343b, #32343b;
-  backgroundColor: #42444c;
+  fillColors: #0035ef, #0035ef;
+  backgroundColor: #1949f0;
   backgroundAlpha: 1;
   cornerRadius: 0;
   dropShadowEnabled: true;
@@ -19,7 +19,7 @@ Panel {
   borderColor: #dfdfdf;
   borderAlpha: 1;
   shadowDistance: 1;
-  dropShadowColor: #666666;
+  dropShadowColor: #0035ef;
   titleStyleName: "mypanelTitle";
 }
 
@@ -55,10 +55,10 @@ Button, .logoutButtonStyle, .chatSendButtonStyle, .helpLinkButtonStyle, .cameraD
   paddingBottom: 5;
   highlightAlphas: 0.4, 0;
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;
   themeColor: haloBlue;
   fontFamily: Arial;
@@ -69,7 +69,7 @@ Button, .logoutButtonStyle, .chatSendButtonStyle, .helpLinkButtonStyle, .cameraD
   paddingLeft: 0;
   paddingRight: 0;
   textDecoration: underline;
-  rollOverColor: #cccccc;
+  rollOverColor: #b2c2fa;
   selectionColor: #999999;
   color: #ffffff;
   textRollOverColor: #504f3d;
@@ -82,7 +82,7 @@ Button, .logoutButtonStyle, .chatSendButtonStyle, .helpLinkButtonStyle, .cameraD
   paddingTop: 2;
   paddingBottom: 2;
   fontSize: 16;
-  rollOverColor: #cccccc;
+  rollOverColor: #b2c2fa;
   selectionColor: #999999;
   color: #ffffff;
   textRollOverColor: #504f3d;
@@ -96,8 +96,8 @@ Button, .logoutButtonStyle, .chatSendButtonStyle, .helpLinkButtonStyle, .cameraD
   paddingTop: 2;
   paddingBottom: 2;
   fontSize: 14;
-  rollOverColor: #cccccc;
-  selectionColor: #cccccc;
+  rollOverColor: #b2c2fa;
+  selectionColor: #b2c2fa;
   color: #e3e3e3;
   textRollOverColor: #504f46;
   textSelectedColor: #504f46;
@@ -120,10 +120,10 @@ Button, .logoutButtonStyle, .chatSendButtonStyle, .helpLinkButtonStyle, .cameraD
 DataGrid {
   backgroundColor: #e1e2e5;
   rollOverColor: #f3f3f3;
-  textRollOverColor: #5e5f63;
+  textRollOverColor: #4c71f3;
   selectionColor: #e1e2e5;
-  color: #5e5f63;
-  textSelectedColor: #5e5f63;
+  color: #4c71f3;
+  textSelectedColor: #4c71f3;
   dropShadowEnabled: false;
   fontFamily: arial;
   fontSize: 11;
@@ -131,7 +131,7 @@ DataGrid {
 }
 
 .mydataGridHeaderStyle {
-  color: #5e5f63;
+  color: #4c71f3;
   fontFamily: arial;
   fontSize: 12;
 }
@@ -148,10 +148,10 @@ DataGrid {
   paddingBottom: 5;
   highlightAlphas: 0.4, 0;
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;
   themeColor: haloBlue;
   fontFamily: Arial;
@@ -205,10 +205,10 @@ DataGrid {
   paddingBottom: 5;
   highlightAlphas: 0.4, 0;
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;
   themeColor: haloBlue;
   fontFamily: Arial;
@@ -257,21 +257,21 @@ DataGrid {
   trackColors: #aaaaaa, #aaaaaa;
   themeColor: haloBlue;
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
   labelStyleName: "presentationZoomSliderLabelStyle";
 }
 
 .presentationZoomSliderLabelStyle {
-  color: #5e5f63;
+  color: #4c71f3;
   fontFamily: Arial;
 }
 
 .videoMuteButtonStyle, .videoUnmutedButtonStyle, .videoSwitchPresenterButtonStyle, .videoEjectUserButtonStyle, .videoPrivateChatButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 17;
 }
@@ -279,10 +279,10 @@ DataGrid {
 .videoMutedButtonStyle {
   /* Need to duplicate info here as the styleName is programatically changed. Extracting it out doesn't have any effect. */
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
   color: #ffffff;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 17;
   icon:   Embed('assets/images/webcam-muted.png');
@@ -336,40 +336,40 @@ DataGrid {
 
 .presentationUploadChooseFileButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 5;  
 }
 
 .presentationUploadCancelButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 5;    
 }
 
 .presentationUploadShowButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 5;  
 }
 
 .presentationUploadDeleteButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 5;    
   icon:   Embed('assets/images/trash.png');
@@ -446,22 +446,22 @@ DataGrid {
 
 .micSettingsWindowPlaySoundButtonStyle, .micSettingsWindowChangeMicButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-  rollOverColor: #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+  rollOverColor: #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 5;      
 }
 
 .micSettingsWindowJoinButtonStyle {
 	fillAlphas: 1, 1, 1, 1;
-	fillColors: #fefeff, #e1e2e5, #ffffff, #eeeeee;
-	rollOverColor: #eeeeee;
-	color: #5e5f63;
-	textRollOverColor: #5e5f63;
-	textSelectedColor: #5e5f63;
+	fillColors: #fefeff, #e1e2e5, #ffffff, #99aef8;
+	rollOverColor: #99aef8;
+	color: #4c71f3;
+	textRollOverColor: #4c71f3;
+	textSelectedColor: #4c71f3;
 	borderColor: #b9babc;  
 	cornerRadius: 5; 
 	icon:   Embed('assets/images/headset.png');
@@ -469,11 +469,11 @@ DataGrid {
 
 .micSettingsWindowCancelButtonStyle {
   fillAlphas: 1, 1, 1, 1;
-  fillColors: #ffffff, #eeeeee, #ffffff, #eeeeee;
-  rollOverColor: #eeeeee;
-  color: #5e5f63;
-  textRollOverColor: #5e5f63;
-  textSelectedColor: #5e5f63;
+  fillColors: #ffffff, #99aef8, #ffffff, #99aef8;
+  rollOverColor: #99aef8;
+  color: #4c71f3;
+  textRollOverColor: #4c71f3;
+  textSelectedColor: #4c71f3;
   borderColor: #b9babc;  
   cornerRadius: 5;    
 }
@@ -488,7 +488,7 @@ DataGrid {
 	paddingTop: 2;
 	paddingBottom: 2;
 	fontSize: 16;
-	rollOverColor: #cccccc;
+	rollOverColor: #b2c2fa;
 	selectionColor: #999999;
 	color: #504f3d;
 	textRollOverColor: #ffffff;
@@ -657,7 +657,7 @@ MDIWindow { /*None of the following properties are overridden by the MDIWindow c
 }
 
 .mypanelTitle {
-  color: #5e5f63;
+  color: #4c71f3;
   fontFamily: Arial;
   fontSize: 12;
   fontWeight: bold;
